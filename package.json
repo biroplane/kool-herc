@@ -1,0 +1,41 @@
+{
+  "name": "kool-herc",
+  "private": true,
+  "version": "0.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "electron:start": "electron .",
+    "lint:js": "eslint src --ext .ts,.vue"
+  },
+  "dependencies": {
+    "nes.css": "^2.3.0",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "@vitejs/plugin-vue": "^2.3.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "autoprefixer": "^10.4.4",
+    "electron": "^18.0.1",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "postcss": "^8.4.12",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.0",
+    "vite-plugin-dynamic-import": "^0.6.2",
+    "vite-plugin-pages": "^0.22.0",
+    "vite-plugin-vue-layouts": "^0.6.0",
+    "vue-eslint-parser": "^8.3.0",
+    "vue-tsc": "^0.29.8"
+  }
+}
