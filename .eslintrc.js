@@ -9,6 +9,7 @@ module.exports = {
         es6: true,
         jest: true,
         node: true,
+        "vue/setup-compiler-macros": true,
     },
     extends: [
         "plugin:vue/strongly-recommended",

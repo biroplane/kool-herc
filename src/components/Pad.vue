@@ -1,14 +1,12 @@
 <script setup lang="ts">
-import { defineProps } from "vue";
+// import { defineProps } from "vue";
 interface PadOption {
-    options: {
-        sound: string;
-        name: string;
-        key?: string;
-        volume: number;
-        loop?: boolean;
-        note?: string;
-    };
+    sound: string;
+    name: string;
+    key?: string;
+    volume: number;
+    loop?: boolean;
+    note?: string;
 }
 const props = defineProps({
     options: { type: Object, default: () => ({} as PadOption) },
